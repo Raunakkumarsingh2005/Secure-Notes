@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>com.spring</groupId>
 	<properties>
-		<maven.compiler.source>23</maven.compiler.source>
-		<maven.compiler.target>23</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<java.version>17</java.version>
 	</properties>
 
@@ -110,9 +110,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version>
 				<configuration>
-					<release>23</release>
+					<release>17</release>
 					<compilerArgs>
-						<arg>--enable-preview</arg>
+<!--						<arg>&#45;&#45;enable-preview</arg>-->
 					</compilerArgs>
 					<fork>true</fork>
 					<annotationProcessorPaths>
